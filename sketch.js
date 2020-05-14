@@ -92,6 +92,7 @@ function generateObstacle() {
     // let type = random() < 0.66 ? (random() < 0.5 ? 0 : 1) : 2;
     let type = random() < 0.5 ? 0 : 1;
     let dir = random() < 0.5 ? 1 : -1;
+    dir = 1;
     switch (type) {
         case 0: {
             obstacles.push(new Obstacle(0, 
